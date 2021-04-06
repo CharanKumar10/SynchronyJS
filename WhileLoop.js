@@ -7,7 +7,7 @@ while(n<10){
     console.log(n);
     n++;    
 
-}
+}   
 console.log("Do..While");
 
 do{
