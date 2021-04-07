@@ -2,8 +2,8 @@
 
 function create(a){
 
-    c=random(a);
-    retun c;
+    let c=a+2;
+    return c;
 
 }
 
