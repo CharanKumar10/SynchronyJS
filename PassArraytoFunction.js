@@ -14,4 +14,19 @@ function addAll(n){
     return sum;
 }
 let arr=[10,20,30];
-console.log(addAll(arr));
+//console.log(addAll(arr));
+
+
+
+function addAll2(...n){//rest parameter ;; accepts any number of values
+    let sum=0;
+    for(let i=0;i<n.length;i++){
+        sum=sum+n[i];
+    }
+    return sum;
+}
+
+//console.log(addAll2(10,20,30));
+
+console.log(addAll2(...arr));//spread parameter
+console.log(addAll2(arr));
